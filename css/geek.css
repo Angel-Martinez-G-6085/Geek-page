@@ -1,0 +1,68 @@
+.section-codigo-geek {
+    position: relative;
+}
+
+.section-codigo-geek {
+    margin-bottom: 10rem;
+}
+
+.codigo-geek-title {
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--guinda);
+}
+
+.codigo-geek-slider-container {
+    overflow: hidden;
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.codigo-geek-slider {
+    width: 300%;
+}
+
+.geek-slider-item {
+    max-width: 100vw;
+}
+
+.gatito-image {
+    width: 33rem;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #CCCCCC;
+    border-radius: 15px;
+}
+
+.slider-item-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-left: 2%;
+    color: var(--naranja);
+}
+
+.slider-item-title {
+    margin-bottom: 2rem;
+}
+
+.boton-pata-prev,
+.boton-pata-next {
+    position: absolute;
+    width: 11rem;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.boton-pata-next {
+    top: 50%;
+    left: 93%;
+}
+
+.boton-pata-prev {
+    top: 50%;
+}

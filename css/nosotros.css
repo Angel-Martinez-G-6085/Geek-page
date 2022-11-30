@@ -1,0 +1,32 @@
+.section-nosotros {
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.nosotros-title-text-container {
+    font-size: 2.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nosotros-title-text-container {
+    margin-top: 7rem;
+}
+
+.nosotros-title {
+    margin-bottom: 2rem;
+}
+
+.nosotros-description {
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+}

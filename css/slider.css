@@ -1,0 +1,52 @@
+.hero-slider-section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 10rem;
+}
+
+.sliders-container {
+    position: relative;
+    height: 70rem;
+}
+
+.slider-section {
+    position: absolute;
+    top: 0;
+}
+
+.sliders-container li {
+    width: 100%;
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1.5s;
+}
+
+.sliders-pagination-container {
+    position: absolute;
+    top: 97%;
+    left: 42%;
+}
+
+.radio_btn {
+    margin-right: 2.5rem;
+}
+
+.slider-icons-container {
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+
+.red-social-icon {
+    width: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.ban {
+    opacity: 0;
+}
