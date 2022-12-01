@@ -19,27 +19,27 @@
     height: 100%;
     border-radius: 15px;
     backface-visibility: hidden;
-    transition: all 1s;
+    transition: all 1.2s;
 }
 
 .desarrollo-card-front {
     background-color: #F7F7F7;
     border: 4px solid #CCCCCC;
-    transform: perspective(500px) rotateY(0deg);
+    transform: perspective(1000px) rotateY(0deg);
 }
 
 .desarrollo-card-back {
     background-color: #F7F7F7;
     border: 4px solid #CCCCCC;
-    transform: perspective(500px) rotateY(180deg);
+    transform: perspective(1000px) rotateY(180deg);
 }
 
 .desarrollo-software-card-container:hover .desarrollo-card-front {
-    transform: perspective(500px) rotateY(180deg);
+    transform: perspective(1000px) rotateY(180deg);
 }
 
 .desarrollo-software-card-container:hover .desarrollo-card-back {
-    transform: perspective(500px) rotateY(360deg);
+    transform: perspective(1000px) rotateY(360deg);
 }
 
 .desarrollo-card-front-image {
