@@ -44,7 +44,7 @@
     position: absolute;
     padding:1rem;
     padding-bottom: 5rem;
-    background: linear-gradient(to left top, blue, red);
+    background: linear-gradient(to left top, #8C1F2A, #ED771B);
     background-size: 500%;
     width: 60%;
     height: 100%;
@@ -53,7 +53,7 @@
     margin: auto;
     cursor: pointer;
     transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    animation: moverFondo 3s infinite;
+    animation: moverFondo 5s infinite;
 }
 
 .equipo-card-image{
