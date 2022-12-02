@@ -1,0 +1,33 @@
+.section-logos {
+    margin-bottom: 10rem;
+}
+
+.section-logo-title {
+    text-align: center;
+    color: var(--guinda);
+    font-size: 3rem;
+}
+
+.section-logos-container {
+    width: 70%;
+}
+
+.logo-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo-image {
+    width: 80%;
+    height: 95%;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
+}
+
+.logo-image:hover {
+    transform: scale3d(0.7, 0.7, 0.7);
+}
