@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/nosotros.css">
     <link rel="stylesheet" href="./css/equipo.css">
     <link rel="stylesheet" href="./css/geek.css">
+    <link rel="stylesheet" href="./css/logos.css">
     <title>Document</title>
 </head>
 <body>
@@ -180,11 +181,11 @@
         </div>
     </section>
 
-    <div class="section-codigo-geek contenedor-ancho">
+    <section class="section-codigo-geek contenedor-ancho">
         <h2 class="codigo-geek-title">Código Geek</h2>
         <div class="codigo-geek-slider-container">
-            <div class="codigo-geek-slider flex">
-                <section class="geek-slider-item flex">
+            <div class="codigo-geek-slider">
+                <section data-show="1"  class="geek-slider-item flex">
                     <div class="gatito-image-container">
                         <img class="gatito-image" src="./assets/images/gatito-constructor.png" alt="gatito-constructor">
                     </div>
@@ -194,7 +195,7 @@
                     </div>
                 </section>
 
-                <section class="geek-slider-item flex">
+                <section data-show="0" class="geek-slider-item flex">
                     <div class="gatito-image-container">
                         <img class="gatito-image" src="./assets/images/gatito-constructor.png" alt="gatito-constructor">
                     </div>
@@ -204,7 +205,7 @@
                     </div>
                 </section>
 
-                <section class="geek-slider-item flex">
+                <section data-show="0"  class="geek-slider-item flex">
                     <div class="gatito-image-container">
                         <img class="gatito-image" src="./assets/images/gatito-constructor.png" alt="gatito-constructor">
                     </div>
@@ -221,7 +222,32 @@
         <div class="geek-slider-next">
             <img class="boton-pata-next" src="./assets/images/Patita-derecha.svg" alt="">
         </div>
-    </div>
+    </section>
+
+    <section class="section-logos">
+        <h2 class="section-logo-title">¡Gracias por su confianza!</h2>
+        <div class="section-logos-container contenedor grid col-3">
+            <div class="logo-image-container">
+                <img class="logo-image" src="./assets/icons/prosa.svg" alt="">
+            </div>
+
+            <div class="logo-image-container">
+                <img class="logo-image" src="./assets/icons/proac.svg" alt="">
+            </div>
+
+            <div class="logo-image-container">
+                <img class="logo-image" src="./assets/icons/reyba.svg" alt="">
+            </div>
+
+            <div class="logo-image-container">
+                <img class="logo-image" src="./assets/icons/ti-mexico.svg" alt="">
+            </div>
+
+            <div class="logo-image-container">
+                <img class="logo-image" src="./assets/icons/delp.svg" alt="">
+            </div>
+        </div>
+    </section>
     <script src="./lib/jquery.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/equipo.js"></script>
