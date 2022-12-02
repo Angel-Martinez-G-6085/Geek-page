@@ -14,17 +14,29 @@
 }
 
 .codigo-geek-slider-container {
-    overflow: hidden;
     position: relative;
     width: 75%;
     margin: 0 auto;
 }
 
 .codigo-geek-slider {
-    width: 300%;
+    position: relative;
+    height: 50rem;
+}
+
+.geek-slider-item[data-show = "0"] {
+    opacity: 0;
+}
+
+.geek-slider-item[data-show = "1"] {
+    opacity: 1;
 }
 
 .geek-slider-item {
+    transition: all 1s;
+    background-color: white;
+    position: absolute;
+    display: flex;
     width: 100%;
 }
 
