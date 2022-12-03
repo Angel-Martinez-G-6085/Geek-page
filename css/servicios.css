@@ -1,0 +1,43 @@
+.section-servicios {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10rem;
+}
+
+.servicios-image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.servicios-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.image-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--blanco);
+    font-size: 3rem;
+}
+
+.image-title {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+
+.image-description {
+    text-align: center;
+    width: 60%;
+    font-size: 4.5rem;
+}
